@@ -37,6 +37,7 @@ return [
         "converters" => [
           "name" => "Convertisseurs",
           "dates" => "Date / Timestamp",
+          "fontawesome_svg" => "FontAwesome / SVG",
         ],
         "statistics" => [
           "name" => "Statistiques",
