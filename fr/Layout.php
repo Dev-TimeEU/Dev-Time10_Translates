@@ -54,6 +54,7 @@ return [
     'devpoints' => "DevPoints",
     'settings' => "Paramètres",
     'logout' => "Déconnexion",
+    'colors' => "Couleurs",
 
     // Footer
     'charte' => "Charte",
