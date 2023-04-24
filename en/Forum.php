@@ -47,15 +47,15 @@ return [
 
     'categorie' => [
       "subjects" => "Topics",
-      "replies" => "Replies",
+      "replys" => "Replies",
       "views" => "Views",
-      "last_reply" => "Last_reply",
+      "last_reply" => "Last reply",
       "no_categorie" => "No category is available on this forum",
     ],
 
     "new_subject" => "Create a topic",
     "administration" => "Administration",
-    "management" => "Manage the forum",
+    "gestion" => "Manage the forum",
     "roles" => "Roles",
     "users" => "Users",
     "categories_subjects" => "Categories and Topics",

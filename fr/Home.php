@@ -18,10 +18,10 @@ return [
         "description" => "Besoin de certains documents pour votre projet, votre entreprise, association ? Avec Dev-Time la génération de ces documents sont possibles et ce gratuitement.",
       ],
       'colors' => [
-        "description" => "Génèrez vos chartes graphiques en quelques cliques ou récupérez les informations RGB, HEX, CMYK ou autre d'une couleur en un simple clique.",
+        "description" => "Génèrez vos chartes graphiques en quelques clics ou récupérez les informations RGB, HEX, CMYK ou autre d'une couleur en un simple clique.",
       ],
       'converters' => [
-        "description" => "Convertissez différents choses facilement avec Dev-Time, vos dates en timestamp par exemple.",
+        "description" => "Convertissez différentes choses facilement avec Dev-Time, vos dates en timestamp par exemple.",
       ],
     ],
 
