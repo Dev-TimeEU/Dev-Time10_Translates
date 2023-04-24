@@ -2,7 +2,7 @@
 return [
     // Pages Home: About
     'imagine' => "Imagine a place...",
-    'imagine2' => "for your site,.to create your forum.,for advice.",
+    'imagine2' => "for your site.,to create your forum.,for advice.",
     'imagine3' => "With Dev-Time, project creation becomes easy!",
     'more' => "Read more",
     'services' => [
@@ -36,7 +36,7 @@ return [
     'why_devtime2' => "First, we've been in the market since 2016. So we have a wide knowledge in the web domain, and how to help small projects.</p>
     <p>Then, we offer various services for the web. Whether it's development, SEO improvement, implementing functionality on your site. We are here for everything!</p>
     <p class='mb-6'>Come test for yourself, it's totally free!",
-    'test' => "Test."
+    'test' => "Test.",
 
     'reviews' => "Customers are talking about us!",
     'truspilot_review' => "TrustPilot reviews",

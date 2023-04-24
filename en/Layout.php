@@ -52,13 +52,13 @@ return [
     'register2' => "Register",
     'levels' => "Level",
     'devpoints' => "DevPoints",
-    settings' => "Settings",
+    'settings' => "Settings",
     'logout' => "Logout",
-    colors' => "Colors",
+    'colors' => "Colors",
 
     // Footer
-    charter' => "Charter",
-    terms' => "Terms of Use",
+    'charter' => "Charter",
+    'terms' => "Terms of Use",
     'privacy' => "Privacy Policy",
     'links' => "Useful links",
     'our_networks' => "Our networks",
