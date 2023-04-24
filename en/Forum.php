@@ -45,7 +45,7 @@ return [
       "publish" => "Publish topic",
     ],
 
-    category' => [
+    'categorie' => [
       "subjects" => "Topics",
       "replies" => "Replies",
       "views" => "Views",
