@@ -23,8 +23,8 @@ return [
     "confirm_new_password" => "Confirm new password",
     "update" => "Update",
 
-    "delete_data_informations" => "By deleting your Dev-Time data, all data will be deleted. Vos outils tels que les Forums, la gestion de vos recrutements, vos statistiques seront supprimées. Une fois le bouton actionné, il ne sera plus possible de récupérer les données, elles seront perdues.",
-    "delete_data" => "Supprimer mes données",
+    "delete_data_informations" => "By deleting your Dev-Time data, all data will be deleted. Vos outils tels que les Forums, the management of your recruitments, your statistics will be deleted. Once the button is pressed, it will no longer be possible to retrieve the data, it will be lost.",
+    "delete_data" => "Delete data",
   ],
 
   "store" => [
