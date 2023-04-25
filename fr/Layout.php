@@ -55,6 +55,7 @@ return [
     'settings' => "Paramètres",
     'logout' => "Déconnexion",
     'colors' => "Couleurs",
+    'colors_site' => "Couleurs du site",
 
     // Footer
     'charte' => "Charte",

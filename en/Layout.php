@@ -55,6 +55,7 @@ return [
     'settings' => "Settings",
     'logout' => "Logout",
     'colors' => "Colors",
+    'colors_site' => "Website colors",
 
     // Footer
     'charter' => "Charter",
