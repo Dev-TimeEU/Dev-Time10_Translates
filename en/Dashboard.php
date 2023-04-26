@@ -34,18 +34,18 @@ return [
       "title" => "Title",
       "code" => "Code",
       "price" => "Price",
-      "status" => "Status",
+      "etat" => "Status",
       "actions" => "Action",
   ],
 
   "affiliation" => [
-    "affiliation" => "Parrainage Dev-Time",
-    "description" => "En parrainant des utilisateurs sur Dev-Time, vous recevez <b>200DevPoints</b> ainsi que <b>50XP</b>. Votre lien parrainage est le suivant: {0}",
-    "devpoints" => "Vos DevPoint",
-    "current_devpoints" => "Vous disposez actuellement de <b>{0} DevPoints</b>.",
+    "affiliation" => "Dev-Time Sponsorship",
+    "description" => "By referring users to Dev-Time, you receive <b>200DevPoints</b> and <b>50XP</b>. Your sponsorship link is: {0}",
+    "devpoints" => "Your DevPoints",
+    "current_devpoints" => "You currently have <b>{0} DevPoints</b>.",
 
-    "user" => "Utilisateur",
-    "status" => "Account status",
+    "user" => "User",
+    "etat" => "Account status",
     "reward" => "Reward",
   ]
 ];
