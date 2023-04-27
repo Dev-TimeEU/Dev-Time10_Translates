@@ -7,6 +7,9 @@ return [
     'language_version' => "1.0.0",
     'language_date' => "d/m/Y at H:i:s",
 
-    'widget_not_avalaible_for_alpha' => "This feature is not available during the Alpha!"
+    'widget_not_avalaible_for_alpha' => "This feature is not available during the Alpha!",
+
+    'days_list' => array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'),
+    'months_list' => array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
 ];
 ?>

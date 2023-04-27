@@ -41,7 +41,7 @@ return [
   "affiliation" => [
     "affiliation" => "Parrainage Dev-Time",
     "description" => "En parrainant des utilisateurs sur Dev-Time, vous recevez <b>200DevPoints</b> ainsi que <b>50XP</b>. Votre lien parrainage est le suivant: {0}",
-    "devpoints" => "Vos DevPoint",
+    "devpoints" => "Vos DevPoints",
     "current_devpoints" => "Vous disposez actuellement de <b>{0} DevPoints</b>.",
 
     "user" => "Utilisateur",
