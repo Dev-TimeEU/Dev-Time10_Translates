@@ -11,5 +11,7 @@ return [
 
     'days_list' => array('lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'),
     'months_list' => array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'),
+
+    'blog__date' => "l d F Y", // Voir: https://www.php.net/manual/fr/datetime.format.php
 ];
 ?>
