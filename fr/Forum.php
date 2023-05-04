@@ -74,6 +74,14 @@ return [
       "error__link" => "Oups... Le lien personnalisé n'est pas autorisé par Dev-Time.",
       "name" => "Nom du forum",
       "create" => "Créer le forum",
-    ]
+    ],
+
+
+    "forums" => "Les forums",
+    "forums_description" => "Retrouvez tous les forums créés sur Dev-Time",
+    "sponsored_forums" => "Forums sponsorisés",
+    "sponsored_forums_description" => "Voici une liste de forums sponsorisés sur Dev-Time.",
+    "create_new_forum" => "Créer votre Forum maintenant",
+    "view_forum" => "Voir le Forum",
 ];
 ?>

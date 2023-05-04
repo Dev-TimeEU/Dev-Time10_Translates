@@ -74,6 +74,13 @@ return [
       "error__link" => "Oops... The custom link is not allowed by Dev-Time.",
       "name" => "Forum name",
       "create" => "Create the forum",
-    ]
+    ],
+
+    "forums" => "The forums",
+    "forums_description" => "Find all the forums created on Dev-Time",
+    "sponsored_forums" => "Sponsored forums",
+    "sponsored_forums_description" => "Here is a list of sponsored forums on Dev-Time.",
+    "create_new_forum" => "Create your forum now",
+    "view_forum" => "View the Forum",
 ];
 ?>
