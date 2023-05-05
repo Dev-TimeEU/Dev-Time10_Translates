@@ -201,7 +201,7 @@ return [
     "fontawesome" => [
       "title" => "Font Awesome to SVG icon converter",
       "description" => "Convert your Font Awesome icons easily with Dev-Time.",
-      "information" => "Font Awesome holds a 20% market share among sites that use third-party font scripts on their platform, second only to Google Fonts. Font Awesome first published on August 21, 2012, this site allows you to have thousands of icons to make your site come alive."
+      "information" => "Font Awesome holds a 20% market share among sites that use third-party font scripts on their platform, second only to Google Fonts. Font Awesome first published on August 21, 2012, this site allows you to have thousands of icons to make your site come alive.",
 
       "converter" => "What do you want to convert?",
       "icon" => "Font Awesome icon",
