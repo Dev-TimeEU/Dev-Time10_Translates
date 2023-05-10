@@ -217,5 +217,22 @@ return [
 
     ],
   ],
+
+  "dns" => [
+    "fields" => [
+      "check_dns" => "Vérifier les DNS d'une adresse.",
+      "adress" => "Nom de domaine ou IP",
+      "check" => "Vérifier les DNS",
+      "dns_type" => [
+        "host" => "Adresse",
+        "type" => "Type",
+        "ttl" => "TTL",
+        "entry" => "Valeur",
+        "list" => [
+          "all" => "Tous les DNS",
+        ],
+      ],
+    ],
+  ],
 ];
 ?>

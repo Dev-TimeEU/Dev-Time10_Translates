@@ -23,6 +23,9 @@ return [
       'converters' => [
         "description" => "Convertissez différentes choses facilement avec Dev-Time, vos dates en timestamp par exemple.",
       ],
+      'website' => [
+        'description' => "Avec Dev-Time, vérifiez vos DNS, votre empreinte carbone. Vérifiez si votre hébergeur utilise des énergies renouvelables.",
+      ],
     ],
 
     'signup' => "Inscrivez-vous",

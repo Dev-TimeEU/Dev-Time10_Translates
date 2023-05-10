@@ -23,6 +23,9 @@ return [
       'converters' => [
         "description" => "Convert different things easily with Dev-Time, your dates in timestamp for example.",
       ],
+      'website' => [
+        'description' => "With Dev-Time, check your DNS, your carbon footprint. Check if your host uses renewable energy.",
+      ],
     ],
 
     'signup' => "Sign up",
@@ -36,7 +39,7 @@ return [
     'why_devtime2' => "First, we've been in the market since 2016. So we have a wide knowledge in the web domain, and how to help small projects.</p>
     <p>Then, we offer various services for the web. Whether it's development, SEO improvement, implementing functionality on your site. We are here for everything!</p>
     <p class='mb-6'>Come test for yourself, it's totally free!",
-    'test' => "Test.",
+    'tester' => "Test.",
 
     'reviews' => "Customers are talking about us!",
     'truspilot_review' => "TrustPilot reviews",
