@@ -44,6 +44,11 @@ return [
           "new_stats" => "Add an application",
           "my_applications" => "My applications",
         ],
+        "website" => [
+          "name" => "Checkers",
+          "dns" => "Check DNS",
+          "carbon" => "Check CO2 emissions",
+        ],
       ],
     ],
     'login' => "Login",

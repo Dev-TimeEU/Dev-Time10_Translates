@@ -44,6 +44,11 @@ return [
           "new_stats" => "Ajouter une application",
           "my_applications" => "Mes applications",
         ],
+        "website" => [
+          "name" => "Vérificateurs",
+          "dns" => "Vérifier les DNS",
+          "carbon" => "Vérifier les emissions CO2",
+        ],
       ],
     ],
     'login' => "Connexion",

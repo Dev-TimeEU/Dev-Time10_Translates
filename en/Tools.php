@@ -213,8 +213,23 @@ return [
       "title" => "date to timestamp converter",
       "description" => "Convert your dates easily with Dev-Time.",
       "information" => "The timestamp represents the amount of seconds that have passed since the first of January of the year 1970 (start of UNIX time), in other words, the timestamp (unix) is the number of seconds that have passed since January 1st 1970 at midnight UTC. This value is used in computer science to constitute a precise moment thanks to a number. Timestamp values can be used with most programming languages and database management systems",
+    ],
+  ],
 
-
+  "dns" => [
+    "fields" => [
+      "check_dns" => "Check the DNS of an address.",
+      "adress" => "Domain name or IP",
+      "check" => "Check DNS",
+      "dns_type" => [
+        "host" => "Host",
+        "type" => "Type",
+        "ttl" => "TTL",
+        "entry" => "Entry",
+        "list" => [
+          "all" => "All DNS",
+        ],
+      ],
     ],
   ],
 ];
