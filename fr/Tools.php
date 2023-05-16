@@ -234,5 +234,47 @@ return [
       ],
     ],
   ],
+
+  "carbon" => [
+    "check_carbon" => "Vérifier l'empreinte carbone d'un site internet",
+    "fields" => [
+      "check" => "Vérifier l'empeinte carbone",
+      "waiting" => "Calcul en cours de l'empreinte carbone.",
+      "domain" => "Nom de domaine (dev-time.eu)",
+      "visitors" => "Nombre de visiteurs mensuel",
+    ],
+
+    "api" => [
+      "loading" => [
+        "200" => "OK",
+        "404_title" => "Une erreur est survenue",
+        "404" => "Oups, il semblerait que l'adresse {0} soit invalide.",
+        "api_error" => "Oups ! On dirait que notre API est surchargée. Patientez un peu. Si ce message perciste, contactez-nous sur Discord !",
+      ],
+      "page" => [
+        "carbon_true" => "Hourra ! Cette page web est plus propre que {0, number}% des pages web testées",
+        "carbon_false" => "Oh non ! La page ou l'hébergeur n'est pas propre pour l'environnement. {0}% des pages web testées",
+        "text_true" => "Ce site est hébergé chez un hébergeur fonctionnant à l'énergie durable.",
+        "text_false" => "Oh non, ce site est hébergé chez un hébergeur qui n'utilisant pas d'énergie renouvelable",
+      ],
+      "co2" => [
+        "grams" => "Seulement {0, number} grammes de CO2 est produit chaque fois qu'une personne visite cette page web.",
+      ],
+      "statistics" => [
+        "EnergyPerVisitInkWh" => "Pour chaque visite, le site consomme {0, number}kWh.",
+        "EmissionsPerVisitInGram" => "Pour chaque visite, la consommation en CO2 est de {0, number} grammes.",
+        "AnnualEnergykWh" => "Chaque année, le site internet consomme {0, number}kWh.",
+        "AnnualEmissionGram" => "Chaque année, le site internet à une empreinte carbonique de {0, number} grammes.",
+        "AnnualEnergy_CDE" => "Chaque année, la consommation des appareils pour le site internet et de {0, number}kWh.", // Annual Segment Energy :: CDE: Consumer device energy
+        "AnnualEnergy_NE" => "Chaque année, le réseau du site internet consomme {0, number}kWh.", // Annual Segment Energy :: NE: Network energy
+        "AnnualEnergy_DCE" => "Le centre de données du site web consomme chaque année {0, number}kWh.", // Annual Segment Energy :: DCE: Data center energy
+        "AnnualEnergy_PE" => "Le site internet produit chaque année {0, number}kWh.", // Annual Segment Energy :: PE: Production energy
+        "AnnualEmission_CDE" => "Chaque année, la consommation des appareils pour le site internet et de {0, number} grammes de CO2.", // Annual Segment Emissions :: CDE: Consumer device energy
+        "AnnualEmission_NE" => "Chaque année, le réseau du site internet consomme {0, number} grammes de CO2.", // Annual Segment Emissions :: NE: Network energy
+        "AnnualEmission_DCE" => "Le centre de données du site web consomme chaque année {0, number} grammes de CO2.", // Annual Segment Emissions :: DCE: Data center energy
+        "AnnualEmission_PE" => "Le site internet produit chaque année {0, number} grammes de CO2.", // Annual Segment Emissions :: PE: Production energy
+      ],
+    ],
+  ],
 ];
 ?>
