@@ -50,6 +50,7 @@ return [
     'members_discord' => "Membri su Discord",
     'register_members' => "Membri registrati",
     'discord_bot' => "Server Discord",
+    'followers_tiktok' => "Abonnés TikTok",
 
     'news' => "Notizie",
     'news2' => "Scopri le ultime notizie su Dev-Time",
