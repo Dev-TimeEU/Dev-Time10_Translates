@@ -11,6 +11,12 @@ return [
     "biographie" => "Biographie de {0}",
     "forums" => "Forums de {0}",
     "signin" => "Inscrit",
+    "forums_last_topics" => "Derniers sujets de {0}",
+    "last_login" => "Dernière connexion",
+    "total_topics" => "Nombre de sujets",
+    "total_messages" => "Nombre de réponses",
+    "networks" => "Réseaux sociaux",
+    "forums_last_replys" => "Dernières réponses de {0}",
   ]
 
 ];

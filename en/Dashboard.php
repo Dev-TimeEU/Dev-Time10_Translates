@@ -20,6 +20,7 @@ return [
     "newsletters4" => "Partnerships only",
     "newsletters5" => "Disable for all",
     "new_password" => "New password",
+    "biographie" => "Biography",
     "confirm_new_password" => "Confirm new password",
     "update" => "Update",
 

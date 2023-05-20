@@ -20,6 +20,7 @@ return [
     "newsletters4" => "Partenariats seulement",
     "newsletters5" => "Désactiver pour tous",
     "new_password" => "Nouveau mot de passe",
+    "biographie" => "Biographie",
     "confirm_new_password" => "Confirmer le nouveau mot de passe",
     "update" => "Mettre à jour",
 
