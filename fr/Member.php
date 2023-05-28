@@ -6,6 +6,7 @@ return [
     "success_paid_item" => "Paiement de {0} avec succès",
     "no_devpoints" => "Vous avez {0} DevPoints. Vous avez besoin de {1} DevPoints pour cet élément.",
     "inedit" => "Objet unique",
+    "requirements_not_valided" => "Oups. Vous ne pouvez pas récupérer cette récompense, car vous n'avez pas les pré-requis.",
   ],
   'profile' => [
     "biographie" => "Biographie de {0}",
