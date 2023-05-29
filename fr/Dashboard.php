@@ -48,6 +48,16 @@ return [
     "user" => "Utilisateur",
     "etat" => "Etat du compte",
     "reward" => "Récompense",
+  ],
+
+  "list" => [
+    "dashboard" => "Dashboard",
+    "settings" => "Mes paramètres",
+    "invoices" => "Achats",
+    "credit" => "Crédit",
+    "rewards" => "Récompenses",
+    "sponsorship" => "Parrainage",
+    "devtime_shop" => "Boutique DevPoints",
   ]
 ];
 ?>

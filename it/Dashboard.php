@@ -19,6 +19,7 @@ return [
     "newsletters4" => "Solo collaborazioni",
     "newsletters5" => "Disattiva per tutti",
     "new_password" => "Nuova password",
+    "biographie" => "Biografia",
     "confirm_new_password" => "Conferma la nuova password",
     "update" => "Aggiorna",
 
@@ -46,6 +47,16 @@ return [
     "user" => "Utente",
     "etat" => "Stato del conto",
     "reward" => "Ricompensa",
+  ],
+
+  "list" => [
+    "dashboard" => "Dashboard",
+    "settings" => "Mes paramètres",
+    "invoices" => "Achats",
+    "credit" => "Crédit",
+    "rewards" => "Récompenses",
+    "sponsorship" => "Parrainage",
+    "devtime_shop" => "Boutique DevPoints",
   ]
 ];
 ?>

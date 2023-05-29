@@ -61,6 +61,7 @@ return [
     'logout' => "Logout",
     'colors' => "Colors",
     'colors_site' => "Website colors",
+    'profile' => "My profile",
 
     // Footer
     'charter' => "Charter",

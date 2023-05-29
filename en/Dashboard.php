@@ -48,6 +48,16 @@ return [
     "user" => "User",
     "etat" => "Account status",
     "reward" => "Reward",
+  ],
+
+  "list" => [
+    "dashboard" => "Dashboard",
+    "settings" => "My settings",
+    "invoices" => "Invoices",
+    "credit" => "Credit",
+    "rewards" => "Rewards",
+    "sponsorship" => "Sponsorship",
+    "devtime_shop" => "DevPoints's shop",
   ]
 ];
 ?>

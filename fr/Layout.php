@@ -61,6 +61,7 @@ return [
     'logout' => "Déconnexion",
     'colors' => "Couleurs",
     'colors_site' => "Couleurs du site",
+    'profile' => "Mon profil",
 
     // Footer
     'charte' => "Charte",
