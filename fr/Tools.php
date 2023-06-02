@@ -223,6 +223,8 @@ return [
       "check_dns" => "Vérifier les DNS d'une adresse.",
       "adress" => "Nom de domaine ou IP",
       "check" => "Vérifier les DNS",
+      "waiting" => "Récupération en cours des DNS de l'adresse.",
+      "no_data" => "Aucune donnée n'a été trouvé pour l'adresse suivante.",
       "dns_type" => [
         "host" => "Adresse",
         "type" => "Type",

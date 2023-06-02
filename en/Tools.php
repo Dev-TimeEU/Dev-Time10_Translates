@@ -221,6 +221,8 @@ return [
       "check_dns" => "Check the DNS of an address.",
       "adress" => "Domain name or IP",
       "check" => "Check DNS",
+      "waiting" => "DNS address recovery in progress.",
+      "no_data" => "No data was found for the following address.",
       "dns_type" => [
         "host" => "Host",
         "type" => "Type",
