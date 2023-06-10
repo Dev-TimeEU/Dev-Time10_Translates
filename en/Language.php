@@ -10,7 +10,7 @@ return [
 
     'author_url' => "https://dev-time.eu",
 
-    'language_version' => "1.5.0",
+    'language_version' => "1.5.1",
 
     'language_date' => "d/m/Y at H:i:s",
 

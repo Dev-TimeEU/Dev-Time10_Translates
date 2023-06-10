@@ -16,6 +16,8 @@ return [
 
     'about' => "A Propos",
 
+    'tutorials' => "Tutoriels",
+
     'tools' => [
 
       "page_name" => "Nos outils",
@@ -141,6 +143,15 @@ return [
     'our_networks' => "Nos réseaux",
 
     'copyright' => "© 2016-".date('Y')." Dev-Time. Tous droits réservés.",
+
+    // Notifications
+    'notifications' => [
+      'notification' => "Notifications",
+      'new' => "Nouveau",
+      'viewed' => "Déjà vu",
+      'redirect' => "Lien externe",
+      'views_all_notifications' => "Voir toutes les notifications",
+    ]
 
 ];
 
