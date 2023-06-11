@@ -38,6 +38,9 @@ return [
 
     "forums_last_replys" => "Dernières réponses de {0}",
 
+    "follow" => "Suivre",
+    "followup" => "Suivi",
+    "you" => "Vous",
   ]
 
 
