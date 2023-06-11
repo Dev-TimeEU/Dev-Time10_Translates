@@ -151,6 +151,27 @@ return [
       'viewed' => "Déjà vu",
       'redirect' => "Lien externe",
       'views_all_notifications' => "Voir toutes les notifications",
+    ],
+
+    'updates' => [
+      "update" => "Mises à jours",
+      "list" => "Liste",
+      "status" => [
+        "published" => "Publiée",
+        "unreleased" => "Non annoncée",
+        "canceled" => "Annulée",
+        "test" => "En Test",
+        "beta" => "BÊTA",
+      ],
+      "data" => [
+        "new" => "Nouveau",
+        "changed" => "Changé",
+        "fixed" => "Fixé",
+        "deleted" => "Supprimé",
+        "updated" => "Mise à jour",
+        "technologie" => "Technologie",
+        "url" => "URL"
+      ]
     ]
 
 ];

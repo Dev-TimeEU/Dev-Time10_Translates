@@ -151,6 +151,27 @@ return [
       'viewed' => "Viewed",
       'redirect' => "External Link",
       'views_all_notifications' => "Views all notifications",
+    ],
+    
+    'updates' => [
+      "update" => "Updates",
+      "list" => "List",
+      "status" => [
+        "published" => "Published",
+        "unreleased" => "Unannounced",
+        "canceled" => "Cancelled",
+        "test" => "In Test",
+        "beta" => "BÊTA",
+      ],
+      "data" => [
+        "new" => "New",
+        "changed" => "Changed",
+        "fixed" => "Fixed",
+        "deleted" => "Deleted",
+        "updated" => "Updated",
+        "technologie" => "Technology",
+        "url" => "URL"
+      ]
     ]
 ];
 
