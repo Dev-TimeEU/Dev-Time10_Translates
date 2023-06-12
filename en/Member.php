@@ -41,7 +41,9 @@ return [
     "follow" => "Follow",
     "followup" => "Followed",
     "you" => "You",
-
+    "followers" => "Followers",
+    "following" => "Followings",
+    "tutorials" => "Tutorials"
   ]
 
 
