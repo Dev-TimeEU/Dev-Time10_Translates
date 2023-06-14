@@ -558,6 +558,77 @@ return [
 
   ],
 
+  "analytics" => [
+    "project" => [
+      "settings" => "Paramètres",
+      "informations" => "Informations",
+      "api" => "API",
+    ],
+    "alert" => [
+      "error" => [
+        "domain_not_valid" => "Oups. Le domaine entré est invalide. Il doit être au format suivant: dev-time.eu",
+        "duplicated" => "Oups. Il semblerait qu'un projet dispose déjà ce nom de domaine.",
+      ],
+      "success" => [
+        "settings_updated" => "Succès ! Les données sont modifiées avec succès !",
+        "created" => "Succès ! Vous pouvez désormais utiliser nos services pour vos statistiques.",
+      ],
+    ],
+    "step" => [
+      "one" => [
+        "title" => "Créer son application",
+        "description" => "Créez une application pour votre site internet en quelques clics",
+      ],
+      "two" => [
+        "title" => "Récupérer le code de l'API",
+        "description" => "Mettez le code HTML dans la balise &lt;head&gt; de votre site internet.",
+      ],
+      "three" => [
+        "title" => "Collecter les données",
+        "description" => "Maintenant, votre site est en ligne, regardez vos graphiques grimper !",
+      ],
+    ],
+    "home" => [
+      "welcome" => "Bienvenue sur Dev-Time Analytics",
+      "count_projects" => "Il y a {0, number} projets qui utilisent nos services",
+    ],
+    "projects_list" => "Liste des projets utilisant nos services",
+    "created_at" => "Ce projet est créé le {0}",
+    "field" => [
+      "change" => "Changer",
+      "update" => "Modifier les paramètres",
+      "create" => "Créer",
+      "name" => [
+        "title" => "Nom du projet",
+        "description" => "Cela correspond au nom de votre projet",
+      ],
+      "domain" => [
+        "title" => "Domaine du projet",
+        "description" => "Cela correspond au nom de domaine de votre projet",
+      ],
+      "code" => [
+        "title" => "Code à placer dans le &lt;head&gt;",
+        "description" => "Sans ce code, nous ne pouvons pas commencer à collecter les données pour votre site",
+      ],
+    ],
+    "stats" => [
+      "primary_country" => "Pays principal du projet",
+      "percentage_robot" => "Pourcentage de robot visitant le site",
+      "total_request_last_month" => "Requêtes totales du mois précédent",
+      "best_platform" => "Meilleure plateforme visitant le site",
+
+      "global_monthly" => "Statistiques globales",
+      "monthly_statistics" => "Statistiques du mois",
+      "loading_data" => "Chargement des données...",
+      "mobile" => "Mobile",
+      "requests" => "Requêtes",
+      "browsers" => "Navigateurs",
+      "view_all_browsers" => "Voir tout les navigateurs",
+      "worldmap" => "Requêtes dans le monde",
+      "no_data" => "Aucune donnée pour le moment"
+    ],
+  ],
+
 ];
 
 ?>
