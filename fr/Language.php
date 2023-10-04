@@ -8,7 +8,7 @@ return [
 
     'language_creator' => "Mateo M.",
 
-    'author_url' => "https://dev-time.eu",
+    'author_url' => "https://cybricode.com",
 
     'language_version' => "1.5.1",
 

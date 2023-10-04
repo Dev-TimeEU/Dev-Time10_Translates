@@ -6,7 +6,7 @@ return [
 
   'page' => [
     'title' => "Our tutorials",
-    'description' => "Find different tutorials in different programming languages with Dev-Time.",
+    'description' => "Find different tutorials in different programming languages with Cybricode.",
     'get_redactor' => "Become an editor now",
   ],
 

@@ -8,7 +8,7 @@ return [
 
     "title" => "Générateur de Conditions Générales d'Utilisations",
 
-    "description" => "Créer mes Conditions Générales d'Utilisations en toute simplicité avec Dev-Time.",
+    "description" => "Créer mes Conditions Générales d'Utilisations en toute simplicité avec Cybricode.",
 
 
 
@@ -42,7 +42,7 @@ return [
 
     "title" => "Générateur de Conditions Générales de Vente",
 
-    "description" => "Créer mes Conditions Générales de Vente en toute simplicité avec Dev-Time.",
+    "description" => "Créer mes Conditions Générales de Vente en toute simplicité avec Cybricode.",
 
     "generate" => "Générer les CGV",
 
@@ -286,7 +286,7 @@ return [
 
     "fields" => [
 
-      "domain" => "Nom de domaine (https://dev-time.eu)",
+      "domain" => "Nom de domaine (https://cybrico.de)",
 
       "check_seo" => "Analyser le SEO du site web",
 
@@ -316,8 +316,6 @@ return [
 
   ],
 
-
-
   'colors' => [
 
     "color" => "Couleur",
@@ -330,13 +328,19 @@ return [
 
     "add" => "Ajouter une couleur",
 
+    "other_colors" => "Découvrir d'autres palettes de couleurs par la communauté",
+
+    "community" => "Palettes communautaires",
+    "description" => "Découvrez les palettes de couleurs de la communauté de Cybricode.",
+    "community_last" => "Dernières palettes de couleurs de la communauté",
+
     "colors" => [
 
       "unique_color" => "Couleur unique",
 
       "title" => "Palette de couleurs",
 
-      "description" => "Avec la palette de couleur de Dev-Time, récupère tes couleurs que tu as besoin en HEX, RBG, CMYK et bien plus encore",
+      "description" => "Avec la palette de couleur de Cybricode, récupère tes couleurs que tu as besoin en HEX, RBG, CMYK et bien plus encore",
 
       "console" => "Informations sur la couleur",
 
@@ -346,6 +350,33 @@ return [
 
         Clique sur la touche [<button class='generator-button'>Espace</button>] pour générer une couleur.",
 
+    ],
+    "fields" => [
+      "main_color" => "Couleur principale",
+      "randomize" => "Aléatoire",
+      "export" => "Exporter",
+
+      "analogous" => "Analogique",
+      "monochromatic" => "Monochromatique",
+      "triadic" => "Triadique",
+      "complementary" => "Complémentaire",
+      "split_complementary" => "Complémentaire divisé",
+      "double_split_complementary" => "Complémentaire à double division",
+      "square" => "Carré",
+      "compound" => "Composé",
+      "shades" => "Ombres",
+
+      "add_color" => "Ajouter",
+      "remove_color" => "Supprimer",
+
+      "name" => "Nom de votre palette de couleur",
+      "new_palette" => "Nouvelle palette de couleur",
+      "publish" => "Publier la palette de couleur",
+
+      "success_publish" => "Succès ! Votre palette de couleur est désormais publiée !",
+      "error_publish" => "Oups. Il semblerait qu'une erreur s'est produite lors de la publication",
+
+      "palettes_user" => "Les palettes de couleurs de {0}",
     ]
 
   ],
@@ -402,7 +433,7 @@ return [
 
       "title" => "Convertisseur d'icône Font Awesome vers SVG",
 
-      "description" => "Convertissez vos icônes Font Awesome facilement avec Dev-Time.",
+      "description" => "Convertissez vos icônes Font Awesome facilement avec Cybricode.",
 
       "information" => "Font Awesome détient une part de marché de 20% parmi les sites qui utilisent des scripts de polices tiers sur leur plateforme, ce qui le place en deuxième position après Google Fonts. Font Awesome publié la première fois le 21 août 2012, ce site permet d'avoir des milliers d'icônes pour rendre son site vivant.",
 
@@ -424,13 +455,9 @@ return [
 
       "title" => "Convertisseur de date vers Timestamp",
 
-      "description" => "Convertissez vos dates facilement avec Dev-Time.",
+      "description" => "Convertissez vos dates facilement avec Cybricode.",
 
       "information" => "Le timestamp représente la quantité de secondes passés depuis le premier janvier de l'année 1970 (début de l'heure UNIX), autrement dit, le timestamp (unix) est le nombre de secondes écoulées depuis le 1er Janvier 1970 à minuit UTC. Cette valeur est employée en informatique pour constituer un instant précis grâce à un nombre. Les valeurs timestamp peuvent être utilisés avec la plupart des langages de programmation et des systèmes de gestion des bases de données.",
-
-
-
-
 
     ],
 
@@ -486,7 +513,7 @@ return [
 
       "waiting" => "Calcul en cours de l'empreinte carbone.",
 
-      "domain" => "Nom de domaine (dev-time.eu)",
+      "domain" => "Nom de domaine (cybrico.de)",
 
       "visitors" => "Nombre de visiteurs mensuel",
 
@@ -566,7 +593,7 @@ return [
     ],
     "alert" => [
       "error" => [
-        "domain_not_valid" => "Oups. Le domaine entré est invalide. Il doit être au format suivant: dev-time.eu",
+        "domain_not_valid" => "Oups. Le domaine entré est invalide. Il doit être au format suivant: cybrico.de",
         "duplicated" => "Oups. Il semblerait qu'un projet dispose déjà ce nom de domaine.",
       ],
       "success" => [
@@ -589,11 +616,12 @@ return [
       ],
     ],
     "home" => [
-      "welcome" => "Bienvenue sur Dev-Time Analytics",
+      "welcome" => "Bienvenue sur Cybricode Analytics",
       "count_projects" => "Il y a {0, number} projets qui utilisent nos services",
     ],
     "projects_list" => "Liste des projets utilisant nos services",
     "created_at" => "Ce projet est créé le {0}",
+    "premium_feature" => "Cette fonctionnalité est disponible en souscrivant un abonnement Premium",
     "field" => [
       "change" => "Changer",
       "update" => "Modifier les paramètres",
@@ -624,12 +652,280 @@ return [
       "requests" => "Requêtes",
       "browsers" => "Navigateurs",
       "view_all_browsers" => "Voir tout les navigateurs",
+      "view_all_pageviews" => "Voir toutes les requêtes",
+      "view_all_screensize" => "Voir toutes les résolutions",
       "worldmap" => "Requêtes dans le monde",
-      "no_data" => "Aucune donnée pour le moment"
+      "no_data" => "Aucune donnée pour le moment",
+
+      "country_list" => "Classement des pays",
+      "pagesviews" => "Liste des pages visités",
+      "resolutions_list" => "Liste des résolutions d'écrans",
+      "robot_list" => "Liste des robots",
+      "platform_list" => "Liste des plateformes",
     ],
   ],
 
+  "audit" => [
+    "project" => [
+      "settings" => "Paramètres",
+      "informations" => "Informations",
+      "api" => "API",
+    ],
+    "alert" => [
+      "error" => [
+        "domain_not_valid" => "Oups. Le domaine entré est invalide. Il doit être au format suivant: cybrico.de",
+        "duplicated" => "Oups. Il semblerait qu'un projet dispose déjà ce nom de domaine.",
+      ],
+      "success" => [
+        "settings_updated" => "Succès ! Les données sont modifiées avec succès !",
+        "created" => "Succès ! Vous pouvez désormais utiliser nos services pour vos résultats SEO.",
+      ],
+    ],
+    "step" => [
+      "one" => [
+        "title" => "Ajouter son site internet",
+        "description" => "Ajoutez votre site internet en quelques clics",
+      ],
+      "two" => [
+        "title" => "Récupérer les données du site",
+        "description" => "Notre outil récupère toutes les données du site et vous informe de l'état de votre site internet.",
+      ],
+      "three" => [
+        "title" => "Collecter les données",
+        "description" => "Votre site en ligne, regardez vos résultats pour optimiser votre site internet !",
+      ],
+    ],
+    "home" => [
+      "welcome" => "Bienvenue sur Cybricode Audit",
+      "count_projects" => "Il y a {0, number} projets qui utilisent nos services",
+    ],
+    "projects_list" => "Liste des projets utilisant nos services",
+    "created_at" => "Ce projet est créé le {0}",
+    "premium_feature" => "Cette fonctionnalité est disponible en souscrivant un abonnement Premium",
+    "field" => [
+      "change" => "Changer",
+      "update" => "Modifier les paramètres",
+      "create" => "Créer",
+      "name" => [
+        "title" => "Nom du projet",
+        "description" => "Cela correspond au nom de votre projet",
+      ],
+      "domain" => [
+        "title" => "Domaine du projet",
+        "description" => "Cela correspond au nom de domaine de votre projet",
+      ],
+      "code" => [
+        "title" => "Code à placer dans le &lt;head&gt;",
+        "description" => "Sans ce code, nous ne pouvons pas commencer à collecter les données pour votre site",
+      ],
+    ],
+    "true" => "Oui",
+    "false" => "Non",
+    "stats" => [
+      "loading_data" => "Chargement des données...",
+      "contentQuality" => "Contenu de qualité",
+      "title" => "Titre",
+      "description" => "Description",
+      "contentQualityResult" => "Contenu long",
+      "readability" => "Lisibilité du contenu",
+      "1sur4" => "Médiocre",
+      "2sur4" => "Moyenne",
+      "3sur4" => "Correcte",
+      "4sur4" => "Parfaite !",
+      "4sur4_male" => "Parfait !",
+      "words_count" => "Mots",
+      "caracters_count" => "Nombre de caractères",
+      "metadata" => [
+        "name" => "Meta du site internet",
+        "title" => [
+          "name" => "Titre",
+          "description" => "Votre site internet dispose d'un titre &lt;title&gt;.",
+          "yes" => "Votre page dispose d'un titre",
+          "no" => "Il est important de mettre un &lt;title&gt; pour votre site."
+        ],
+        "description" => [
+          "name" => "Description",
+          "description" => "Votre site internet dispose d'une description &lt;meta&gt;.",
+          "yes" => "Votre page dispose d'une description",
+          "no" => "Il est important de mettre un &lt;meta&gt; description pour votre site."
+        ],
+        "hasNoindexMetaTag" => [
+          "name" => "Meta No Index",
+          "description" => "Votre site internet ne dispose pas d'une balise &lt;meta&gt; robots noindex.",
+          "yes" => "Vous autorisez les robots a lire votre site internet.",
+          "no" => "Il est important d'autoriser les robots à lire votre site internet. Sans cela, vous n'êtes pas référencé"
+        ],
+        "schemaExists" => [
+          "name" => "Schema",
+          "description" => "Votre site internet ne dispose pas des informations schema.",
+          "yes" => "Vous disposez des informations SEO de Schema.",
+          "no" => "Il est utile de rajouter les informations SEO de Schema sur votre site internet."
+        ],
+        "siteLanguage" => [
+          "name" => "Langue du site internet",
+          "description" => "La balise langue permet de définir la langue du contenu du site internet.",
+          "yes" => "Votre site internet dispose de la langue <b>{0}</b>",
+          "no" => "Votre site internet ne dispose pas d'informations sur la langue du contenu."
+        ],
+        "hasFavicon" => [
+          "name" => "Icône sur le site",
+          "description" => "L'icône sur un site internet est très importante.",
+          "yes" => "Vous disposez d'une icône sur votre site.",
+          "no" => "Il est fortement recommandé de mettre une icône sur votre site."
+        ],
+        "checkCanonicalTags" => [
+          "name" => "Balise Canonical",
+          "description" => "Balise canonical sur votre site internet",
+          "yes" => "Vous disposez d'une icône sur votre site.",
+          "no" => "Il est fortement recommandé de mettre une icône sur votre site."
+        ],
+        "checkRobotsTxt" => [
+          "name" => "Fichier robots.txt",
+          "description" => "Vérification de l'existence  du fichier robots.txt",
+          "yes" => "Vous disposez d'un fichier robots.txt sur vôtre site.",
+          "no" => "L'usage d'un robots.txt est obligatoire pour que les robots ait accès à votre site internet."
+        ],
+        "sitemapExists" => [
+          "name" => "Fichier sitemap.xml",
+          "description" => "Vérification de l'existence  du fichier sitemap.xml",
+          "yes" => "Vous disposez d'un fichier sitemap.xml sur vôtre site.",
+          "no" => "Un sitemap est très recommandé pour votre site internet."
+        ],
+      ],
+      "images_data" => [
+        "name" => "Images du site internet",
+        "imageAltAttributesResult" => [
+          "name" => "Les images contiennent un attribut <b>alt</b>"
+        ],
+        "count_images" => [
+          "name" => "Nombre d'images sur le site internet"
+        ],
+      ],
+      "security" => [
+        "name" => "Sécurité du site internet",
+        "checkEmail" => [
+          "name" => "Le site contient une adresse email visible."
+        ],
+        "httpsupport" => [
+          "name" => "Support HTTP/{0}",
+        ],
+        "ssl" => [
+          "name" => "Site sous HTTPS",
+        ],
+      ],
+
+      "scripts" => [
+        "name" => "Scripts",
+      ],
+      "headers_texts" => [
+        "name" => "Titres et paragraphes",
+      ],
+      "keywords" => [
+        "name" => "Mots clés",
+      ],
+      "serp" => [
+        "name" => "Exemple lors d'une recherche sur Internet",
+      ],
+      "childURLs" => [
+        "name" => "URLs Enfant",
+        "interne" => "Interne",
+        "externe" => "Externe"
+      ],
+      "robots" => [
+        "name" => "Fichier Robots.txt",
+        "not_found" => "Votre site ne dispose pas de fichier robots.txt.",
+      ],
+      "sitemap" => [
+        "name" => "Fichier sitemap.xml",
+        "not_found" => "Votre site ne dispose pas de fichier sitemap.xml.",
+      ],
+      "technologies" => [
+        "name" => "Technologies",
+        "list" => [
+          "technologie" => "Technologie",
+          "pub" => "Régie Publicitaire",
+          "payement" => "Moyen de paiement",
+          "status" => "Status",
+          "framework_js" => "Framework JS",
+          "framework_css" => "Framework CSS",
+          "framework_web" => "Framework Web",
+          "script_police_font" => "Police d'écriture",
+          "security" => "Sécurité",
+          "balise_gestionnary" => "Gestionnaire",
+          "library_js" => "Librairie",
+          "editor_text" => "Editeur texte",
+          "graphisme_js" => "Graphiques",
+          "programming_language" => "Langage de programmation",
+          "rum" => "RUM",
+          "divers" => "Divers",
+          "cdn" => "CDN",
+          "server" => "Serveur",
+          "statistics" => "Outil de statistiques",
+        ],
+      ],
+    ],
+  ],
+  "name_checker" => [
+    "fields" => [
+      "name" => "Nom du domaine (Ex: Cybricode)",
+      "available" => "Ce nom de domaine semble être disponible.",
+      "not_available" => "Ce nom de domaine semble être indisponible.",
+      "check" => "Vérifier la liste des noms de domaines",
+      "waiting" => "En cours de vérifications des noms de domaines",
+
+      "disclaimer" => "L'utilisation de la marque d'un concurrent pour un nom de domaine peut être attaquée soit par procédure extra-judiciaire, soit devant les tribunaux étatiques, lorsqu'en plus du transfert du nom de domaine, on souhaite obtenir des dommages et intérêts",
+    ],
+  ],
+
+  "estimate" => [
+    "website" => [
+      "name" => "Estimation de la création d'un site",
+      "description" => "Estimez le prix de votre site internet facilement avec Cybricode.",
+      "tabs" => [
+        "step" => "Etape {0}",
+        "developer" => "Développeur",
+        "project" => "Projet",
+        "seo_information" => "SEO",
+        "revenue" => "Capital",
+        "croissance" => "Croissance",
+        "final" => "Finalisation",
+      ],
+      "fields" => [
+        "hourly_rate" => "Taux horaire du développeur",
+        "developer_hourly_worked" => "Combien d'heure votre développeur travail par semaine ?",
+        "website_type" => "Type de site internet",
+        "host_price" => "Prix mensuel de votre hébergement Web",
+        "subcribers" => "Combien d'abonnés avez-vous sur votre projet ?",
+        "exist_project" => "Depuis combien de temps le projet existe (en année) ?",
+        "monthly_visitors" => "Le nombre de visiteurs uniques par mois sur votre site.",
+        "seo_visitors" => "D'ou viennent vos visiteurs ?",
+        "seo__natural" => "Moteurs de recherches, SEO, etc.",
+        "seo__referral" => "SEM et les publicités",
+        "seo__social" => "Les réseaux sociaux & Référencement direct",
+        "users_register" => "Combien d'utilisateurs avez-vous d'inscrit ?",
+        "sales_revenue" => "Votre chiffre d'affaire annuel",
+        "revenue" => [
+          "null" => "Aucune",
+          "decreasing" => "En baisse",
+          "stable" => "Stable",
+          "increasing" => "En croissance",
+        ],
+        "croissance" => "Quelle est la croissance de votre projet ?",
+        "croissance_list" => [
+          "null" => "Aucune",
+          "decreasing" => "En baisse",
+          "stable" => "Stable",
+          "increasing" => "En croissance",
+          "hyper_increasing" => "En hypercroissance",
+          "tendance" => "Très tendance",
+        ],
+
+        "firstname" => "Votre prénom pour obtenir votre estimation.",
+        "lastname" => "Votre nom de famille pour obtenir votre estimation.",
+        "email__get_estimation" => "Obtenez votre estimation par email.",
+        "project_name" => "Nom de votre projet",
+      ],
+    ],
+  ],
 ];
-
 ?>
-

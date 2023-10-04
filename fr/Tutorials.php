@@ -6,7 +6,7 @@ return [
 
   'page' => [
     'title' => "Nos tutoriels",
-    'description' => "Retrouvez differents tutoriels dans différents langages de programmation avec Dev-Time.",
+    'description' => "Retrouvez differents tutoriels dans différents langages de programmation avec Cybricode.",
     'get_redactor' => "Devenir rédacteur maintenant",
   ],
 

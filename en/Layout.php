@@ -64,11 +64,15 @@ return [
 
           "name" => "Colories",
 
-          "colors" => "Colors",
+          "colors" => "Colors palettes",
+
+          "colors_community" => "Community palettes",
 
           "graphic_design" => "Generate Graphic Design",
 
           "colors_filter" => "Generate CSS filter",
+
+          "tailwind_colors" => "Tailwind color",
 
         ],
 
@@ -99,8 +103,27 @@ return [
           "dns" => "Check DNS",
 
           "carbon" => "Check CO2 emissions",
-
+          "name_checker" => "Check domain names",
         ],
+
+        "short_url" => [
+          "name" => "Shortcut links",
+          "new_links" => "Add a link",
+          "my_links" => "My links",
+        ],
+
+        "estimates" => [
+          "name" => "Estimates",
+          "website_creator" => "Website creation",
+        ],
+
+        "audit" => [
+          "name" => "Audit",
+
+          "new_app" => "New website",
+
+          "my_applications" => "My websites",
+        ]
 
       ],
 
@@ -142,7 +165,7 @@ return [
 
     'our_networks' => "Our networks",
 
-    'copyright' => "© 2016-".date('Y')." Dev-Time. All rights reserved.",
+    'copyright' => "© 2016-".date('Y')." Cybricode. All rights reserved.",
 
     // Notifications
     'notifications' => [

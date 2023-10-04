@@ -8,7 +8,7 @@ return [
 
     "title" => "Terms of Use Generator",
 
-    "description" => "Create my Terms of Use easily with Dev-Time.",
+    "description" => "Create my Terms of Use easily with Cybricode.",
 
 
 
@@ -42,7 +42,7 @@ return [
 
     "title" => "Terms and Conditions Generator",
 
-    "description" => "Create my Terms and Conditions easily with Dev-Time",
+    "description" => "Create my Terms and Conditions easily with Cybricode",
 
     "generate" => "Generate Terms and Conditions",
 
@@ -286,7 +286,7 @@ return [
 
     "fields" => [
 
-      "domain" => "Domain name (https://dev-time.eu)",
+      "domain" => "Domain name (https://cybrico.de)",
 
       "check_seo" => "Analyze website SEO",
 
@@ -330,13 +330,19 @@ return [
 
     "add" => "Add a color",
 
+    "other_colors" => "Discover other color palettes through the community",
+
+    "community" => "Community palettes",
+    "description" => "Discover the color palettes of the Cybricode community.",
+    "community_last" => "Latest community color palettes",
+
     "colors" => [
 
       "unique_color" => "unique color",
 
       "title" => "Color Palette",
 
-      "description" => "With the Dev-Time color palette, get the colors you need in HEX, RBG, CMYK and more",
+      "description" => "With the Cybricode color palette, get the colors you need in HEX, RBG, CMYK and more",
 
       "console" => "Color information",
 
@@ -346,6 +352,33 @@ return [
 
         Click on the [<button class='generator-button'>Space</button>] key to generate a color.",
 
+    ],
+    "fields" => [
+      "main_color" => "Main color",
+      "randomize" => "Randomize",
+      "export" => "Export",
+
+      "analogous" => "Analogous",
+      "monochromatic" => "Monochromatic",
+      "triadic" => "Triadic",
+      "complementary" => "Complementary",
+      "split_complementary" => "Split Complementary      ",
+      "double_split_complementary" => "Double Split Complementary",
+      "square" => "Square",
+      "compound" => "Compound",
+      "shades" => "Shades",
+
+      "add_color" => "New color",
+      "remove_color" => "Delete",
+
+      "name" => "Name of your color palette",
+      "new_palette" => "New color palette",
+      "publish" => "Publish color palette",
+
+      "success_publish" => "Success! Your color palette is now published!",
+      "error_publish" => "Oops. It seems that an error occurred during publication.",
+
+      "palettes_user" => "{0}'s color palettes",
     ]
 
   ],
@@ -402,7 +435,7 @@ return [
 
       "title" => "Font Awesome to SVG icon converter",
 
-      "description" => "Convert your Font Awesome icons easily with Dev-Time.",
+      "description" => "Convert your Font Awesome icons easily with Cybricode.",
 
       "information" => "Font Awesome holds a 20% market share among sites that use third-party font scripts on their platform, second only to Google Fonts. Font Awesome first published on August 21, 2012, this site allows you to have thousands of icons to make your site come alive.",
 
@@ -424,7 +457,7 @@ return [
 
       "title" => "date to timestamp converter",
 
-      "description" => "Convert your dates easily with Dev-Time.",
+      "description" => "Convert your dates easily with Cybricode.",
 
       "information" => "The timestamp represents the amount of seconds that have passed since the first of January of the year 1970 (start of UNIX time), in other words, the timestamp (unix) is the number of seconds that have passed since January 1st 1970 at midnight UTC. This value is used in computer science to constitute a precise moment thanks to a number. Timestamp values can be used with most programming languages and database management systems",
 
@@ -482,7 +515,7 @@ return [
 
       "waiting" => "Current carbon footprint calculation.",
 
-      "domain" => "Domain name (dev-time.eu)",
+      "domain" => "Domain name (cybrico.de)",
 
       "visitors" => "Number of monthly visitors",
 
@@ -562,7 +595,7 @@ return [
     ],
     "alert" => [
       "error" => [
-        "domain_not_valid" => "Oops. The domain entered is invalid. It must be in the following format: dev-time.eu",
+        "domain_not_valid" => "Oops. The domain entered is invalid. It must be in the following format: cybrico.de",
         "duplicated" => "Oops. It seems that a project already has this domain name",
       ],
       "success" => [
@@ -585,11 +618,12 @@ return [
       ],
     ],
     "home" => [
-      "welcome" => "Welcome to Dev-Time Analytics",
+      "welcome" => "Welcome to Cybricode Analytics",
       "count_projects" => "There are {0, number} projects using our services",
     ],
     "projects_list" => "Liste des projets utilisant nos services",
     "created_at" => "Ce projet est créé le {0}",
+    "premium_feature" => "This feature is available with a Premium subscription.",
     "field" => [
       "change" => "Change",
       "update" => "Update settings",
@@ -620,12 +654,281 @@ return [
       "requests" => "Requests",
       "browsers" => "Browsers",
       "view_all_browsers" => "View all browsers",
+      "view_all_pageviews" => "View all queries",
+      "view_all_screensize" => "View all resolutions",
       "worldmap" => "Requests in the world",
-      "no_data" => "No data yet".
+      "no_data" => "No data yet",
+
+      "country_list" => "Country ranking",
+      "pagesviews" => "List of visited pages",
+      "resolutions_list" => "List of screen resolutions",
+      "robot_list" => "List of robots",
+      "platform_list" => "List of platforms",
     ],
   ],
 
+  "audit" => [
+    "project" => [
+      "settings" => "Settings",
+      "informations" => "Informations",
+      "api" => "API",
+    ],
+    "alert" => [
+      "error" => [
+        "domain_not_valid" => "Oops. The domain entered is invalid. It must be in the following format: cybrico.de",
+        "duplicated" => "Oops. It looks like a project already has this domain name.",
+      ],
+      "success" => [
+        "settings_updated" => "Success! Data successfully modified!",
+        "created" => "Success! You can now use our services for your SEO results.",
+      ],
+    ],
+    "step" => [
+      "one" => [
+        "title" => "Add your website",
+        "description" => "Add your website in a few clicks",
+      ],
+      "two" => [
+        "title" => "Retrieve website data",
+        "description" => "Our tool retrieves all site data and informs you of the status of your website.",
+      ],
+      "three" => [
+        "title" => "Collect data",
+        "description" => "Your site online, look at your results to optimize your website!",
+      ],
+    ],
+    "home" => [
+      "welcome" => "Welcome to Cybricode Audit",
+      "count_projects" => "There are {0, number} projects using our services",
+    ],
+    "projects_list" => "List of projects using our services",
+    "created_at" => "This project was created on {0}",
+    "premium_feature" => "This feature is available with a Premium subscription",
+    "field" => [
+      "change" => "Change",
+      "update" => "Modify settings",
+      "create" => "Create",
+      "name" => [
+        "title" => "Project name",
+        "description" => "This is the name of your project",
+      ],
+      "domain" => [
+        "title" => "Project domain",
+        "description" => "This is the domain name of your project",
+      ],
+      "code" => [
+        "title" => "Code to place in &lt;head&gt;",
+        "description" => "Without this code, we can't start collecting data for your site",
+      ],
+    ],
+    "true" => "Yes",
+    "false" => "No",
+    "stats" => [
+      "loading_data" => "Loading data...",
+      "contentQuality" => "Quality content",
+      "title" => "Title",
+      "description" => "Description",
+      "contentQualityResult" => "Long content",
+      "readability" => "Content readability",
+      "1sur4" => "Poor",
+      "2sur4" => "Average",
+      "3sur4" => "Correct",
+      "4sur4" => "Perfect!",
+      "4sur4_male" => "Perfect!",
+      "words_count" => "Words",
+      "caracters_count" => "Number of characters",
+      "metadata" => [
+        "name" => "Website meta",
+        "title" => [
+          "name" => "Title",
+          "description" => "Your website has a title &lt;title&gt;.",
+          "yes" => "Your page has a title",
+          "no" => "It's important to put a &lt;title&gt; for your site."
+        ],
+        "description" => [
+          "name" => "Description",
+          "description" => "Your website has a &lt;meta&gt; description.",
+          "yes" => "Your page has a description",
+          "no" => "It's important to put a &lt;meta&gt; description for your site."
+        ],
+        "hasNoindexMetaTag" => [
+          "name" => "Meta No Index",
+          "description" => "Your website does not have a &lt;meta&gt; robots noindex tag.",
+          "yes" => "You allow robots to read your website.",
+          "no" => "It's important to allow robots to read your website. Without it, you won't be referenced.",
+        ],
+        "schemaExists" => [
+          "name" => "Schema",
+          "description" => "Votre site internet ne dispose pas des informations schema.",
+          "yes" => "Vous disposez des informations SEO de Schema.",
+          "no" => "Il est utile de rajouter les informations SEO de Schema sur votre site internet."
+        ],
+        "siteLanguage" => [
+          "name" => "Langue du site internet",
+          "description" => "La balise langue permet de définir la langue du contenu du site internet.",
+          "yes" => "Votre site internet dispose de la langue <b>{0}</b>",
+          "no" => "Votre site internet ne dispose pas d'informations sur la langue du contenu."
+        ],
+        "hasFavicon" => [
+          "name" => "Icône sur le site",
+          "description" => "L'icône sur un site internet est très importante.",
+          "yes" => "Vous disposez d'une icône sur votre site.",
+          "no" => "Il est fortement recommandé de mettre une icône sur votre site."
+        ],
+        "checkCanonicalTags" => [
+          "name" => "Balise Canonical",
+          "description" => "Balise canonical sur votre site internet",
+          "yes" => "You have an icon on your site.",
+          "no" => "It is strongly recommended to put an icon on your site."
+        ],
+        "checkRobotsTxt" => [
+          "name" => "robots.txt file",
+          "description" => "Check existence of robots.txt file",
+          "yes" => "You have a robots.txt file on your site",
+          "no" => "The use of a robots.txt file is mandatory for robots to access your website."
+        ],
+        "sitemapExists" => [
+          "name" => "File sitemap.xml",
+          "description" => "Check existence of sitemap.xml file",
+          "yes" => "You have a sitemap.xml file on your site",
+          "no" => "A sitemap is highly recommended for your website."
+        ],
+      ],
+      "images_data" => [
+        "name" => "Website images",
+        "imageAltAttributesResult" => [
+          "name" => "Images contain an alt attribute"
+        ],
+        "count_images" => [
+          "name" => "Number of images on the website"
+        ],
+      ],
+      "security" => [
+        "name" => "Website security",
+        "checkEmail" => [
+          "name" => "The site contains a visible email address."
+        ],
+        "httpsupport" => [
+          "name" => "Support HTTP/{0}",
+        ],
+        "ssl" => [
+          "name" => "Site sous HTTPS",
+        ],
+      ],
+
+      "scripts" => [
+        "name" => "Scripts",
+      ],
+      "headers_texts" => [
+        "name" => "Headings and paragraphs",
+      ],
+      "keywords" => [
+        "name" => "Keywords",
+      ],
+      "serp" => [
+        "name" => "Example when searching the Internet",
+      ],
+      "childURLs" => [
+        "name" => "URLs Child",
+        "interne" => "Internal",
+        "externe" => "External",
+      ],
+      "robots" => [
+        "name" => "Robots.txt file",
+        "not_found" => "Your site does not have a robots.txt file.",
+      ],
+      "sitemap" => [
+        "name" => "Fichier sitemap.xml",
+        "not_found" => "Votre site ne dispose pas de fichier sitemap.xml.",
+      ],
+      "technologies" => [
+        "name" => "Technologies",
+        "list" => [
+          "technologie" => "Technology",
+          "pub" => "Advertising",
+          "payement" => "Moyen de paiement",
+          "status" => "Statut",
+          "framework_js" => "Framework JS",
+          "framework_css" => "Framework CSS",
+          "framework_web" => "Framework Web",
+          "script_police_font" => "Font",
+          "security" => "Security",
+          "balise_gestionnary" => "Manager",
+          "library_js" => "library",
+          "editor_text" => "Text editor",
+          "graphisme_js" => "Graphics",
+          "programming_language" => "Programming language",
+          "rum" => "RUM",
+          "divers" => "Other",
+          "cdn" => "CDN",
+          "server" => "Server",
+          "statistics" => "Statistics tool",
+        ],
+      ],
+    ],
+  ],
+
+  "name_checker" => [
+    "fields" => [
+      "name" => "Domain name (Ex: Cybricode)",
+      "available" => "This domain name seems to be available.",
+      "not_available" => "This domain name seems to be unavailable.",
+      "check" => "Check the list of domain names",
+      "waiting" => "Currently checking domain names",
+
+      "disclaimer" => "The use of a competitor's trademark for a domain name can be challenged either by extra-judicial proceedings or before the state courts, when in addition to the transfer of the domain name, damages are sought",
+    ],
+  ],
+
+  "estimate" => [
+    "website" => [
+      "name" => "Estimate the creation of a website",
+      "description" => "Estimate the price of your website easily with Cybricode",
+      "tabs" => [
+        "step" => "Step {0}",
+        "developer" => "Developer",
+        "project" => "Project",
+        "seo_information" => "SEO",
+        "revenue" => "Capital",
+        "croissance" => "Growth",
+        "final" => "Finalization",
+      ],
+      "fields" => [
+        "hourly_rate" => "Developer hourly rate",
+        "developer_hourly_worked" => "How many hours does your developer work per week?",
+        "website_type" => "Website type",
+        "host_price" => "Monthly price of your web hosting",
+        "subcribers" => "How many subscribers do you have on your project?",
+        "exist_project" => "How long has the project existed (in years)?",
+        "monthly_visitors" => "The number of unique visitors per month to your site.",
+        "seo_visitors" => "Where do your visitors come from?",
+        "seo__natural" => "Search engines, SEO, etc.",
+        "seo__referral" => "SEM and advertising",
+        "seo__social" => "Social networks & direct referencing",
+        "users_register" => "How many users do you have registered?",
+        "sales_revenue" => "Your annual sales",
+        "revenue" => [
+          "null" => "None",
+          "decreasing" => "Decreasing",
+          "stable" => "Stable",
+          "increasing" => "Increasing",
+        ],
+        "croissance" => "What is the growth of your project?",
+        "croissance_list" => [
+          "null" => "None",
+          "decreasing" => "Decreasing",
+          "stable" => "Stable",
+          "increasing" => "Growing",
+          "hyper_increasing" => "Hyperincreasing",
+          "tendance" => "Très tendance",
+        ],
+
+        "firstname" => "Your first name to get your estimate.",
+        "lastname" => "Your last name to get your estimate.",
+        "email__get_estimation" => "Get your estimate by email.",
+        "project_name" => "Your project name."
+      ],
+    ],
+  ],
 ];
-
 ?>
-
